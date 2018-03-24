@@ -1,0 +1,254 @@
+body{
+	background-color:#e0dfdf;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+	padding: 0;
+	margin: 0 auto;
+}
+header{
+	/*background-image: url(../images/octopus.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;*/
+}
+
+/*header*/
+
+.container{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.header{
+	background-image: url(../images/octopus.jpg);
+	background-size: cover;
+    background-position: center center;
+    height: 100vh;
+ }
+
+.header__top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__left{
+	
+}
+.logo{
+	width: 90px;
+}
+.header__right{
+	
+}
+.conteiner__ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+.conteiner__li{
+	
+	display: inline-block;
+}
+.link{
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: block;
+}
+.intro{
+	width: 449px;
+	margin: 63px auto;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+.intro__tittle{
+
+}
+
+
+/*MAIN ___ CAJA1*/
+
+
+
+.interior2{
+	
+	padding-top: 30px;
+}
+.interior__caja{
+	background-color: #fff;
+	margin: auto 476px;
+	margin-bottom: 100px;
+}
+.caja1{
+	display: inline-block;
+	position: relative;
+	left: -95px;
+	top: 50px;
+}
+	.posicion{
+		display: inline-block;
+		position: relative;
+		left: 119px;
+		top: 50px;
+}
+.images{
+	width: 400px;
+	margin-right: 25px;
+}
+.caja__text{
+	width: 400px;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 50px 60px;
+}
+.caja__texto{
+	width: 674px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	text-align: center;
+	font-size: 20px;
+}
+.texto{
+	font-size: 28px;
+}
+.enlace{
+	color: black;
+	margin-right: 12px;
+	font-size: 18px;
+}
+
+
+/*Footer*/
+
+.footer{
+	background-color: #2c2c3a;
+	color: #fff;
+	padding: 100px;
+}
+
+.container
+	.footer__columns{
+		display: flex;
+		justify-content: space-between;
+	}	
+
+
+	.footer__column{
+		width: 250px;
+		margin-right: 49px;
+	}
+
+	
+.lista{
+	list-style: none;
+	padding-left: 0;
+}
+	.listaflex{
+		display: flex;
+	}
+.list{
+	margin-right: 15px;
+}
+
+
+
+
+/* Pagina About*/
+
+.header__about{
+
+	background-image: url(../images/barra.jpg);
+	background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
+
+.aboutMargin{
+	margin-top: -100px;
+}
+
+
+.interiorCaja{
+	margin:  auto 473px;
+	margin-bottom: 100px;
+}
+	.cajabottom{
+		margin-bottom: -40px;
+		z-index: 2;
+		position: relative;
+	}
+.cajaAbout{
+	position: relative;
+    left: -104px;
+    top: 30px;
+}
+.cajaPosition{
+	position: relative;
+    left: 126px;
+    top: 30px;
+}
+
+
+
+/*PAGINA RESERVATIONS*/
+
+.header__reservation{
+	background-image: url(../images/dish-and-glass.jpg);
+	background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+	.reservationMargin{
+		margin-top: -176px;
+	}
+.texto{
+	font-size: 22px;
+	text-align: center;
+	margin: auto 119px;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+
+/*FORMULARIO*/
+
+.formulario{
+	width: 800px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.form{
+	margin: 0 auto;
+}	
+.casilla{
+	display: inline-block;
+}
+.label{
+	display: block;
+
+}
+.input{
+	width: 393px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.textarea{
+	width: 790px;	
+	height: 160px;
+}
+.click{
+	width: 220px;
+	height: 40px;
+	background-color: #251c1c;
+	color: #fff;
+	margin-left: 282px;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
