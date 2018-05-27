@@ -1,0 +1,336 @@
+*{
+	font-family: arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.blanco{
+	background-color: #FFF;
+}
+.interior{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header__top{
+	background-color:#2121ad;
+	height: 60px;	  	 			
+}
+	.header__left,.header__right{
+		display: inline-block;
+		width: 400px;
+		padding: 12px;
+	}
+	.header__right{
+		float: right;
+		text-align: right;
+	}
+	.header__link{
+		display: inline-block;
+		color: white;
+    	text-decoration: none;
+    	margin: 9px;
+	}
+	.header__icons{
+		display: inline-block;	
+		color: white;
+    	text-decoration: none;
+    	margin: 9px;
+	}
+.nav{
+	
+}
+.nav__ul{
+	display: inline-block;
+	vertical-align: top;
+}
+	.nav__list{
+		margin-left: 50px;
+    	display: inline-flex;
+    	margin: 30px;
+	}
+
+	.nav__link{
+		text-decoration: none;
+		color: black;
+		padding: 10px 20px;
+		border-radius: 6px;
+		transition: background-color 700ms;
+
+	}
+
+	.nav__link:hover{
+		background-color: black;
+		color: white;
+	}
+	.nav__image{
+		padding-top: 15px;
+	}
+
+.post{
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.post__fecha{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 20px; 
+	margin-left: 12px;
+}
+	.text_one{
+	    font-size: 17px;
+    	font-weight: bold;
+	}
+	.text_two{
+	    font-size: 30px;
+    	font-weight: bold;
+	}
+	.text_thre{
+		font-size: 17px;
+    	font-weight: bold;
+	}
+
+.post__imagen{
+	vertical-align: top;
+    display: inline-block;
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.post__text{
+	display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.titulo{
+	background-color: #2121ad;
+    color: white;
+    height: 20px;
+    padding: 8px;
+    width: 684px;
+    display: inline-block;
+}
+
+/* este es el mother fucker*/
+
+.title1{
+	background-color: #2121ad;
+    color: white;
+    height: 20px;
+    padding: 8px;
+    width: 331px;
+    display: inline-block;
+}
+.title2{
+	background-color: #2121ad;
+    color: white;
+    height: 20px;
+    padding: 8px;
+    width: 331px;
+    display: inline-block;
+}
+	.title__text{
+		color: #2121ad;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+p{
+	margin-bottom: 10px;
+}
+.weed{
+	display: inline-block;
+	margin-left: 6px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-right: 6px;
+	font-size: 12px;
+}
+.titulo__text{
+	text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+	.titulo__botton{
+		width: 121px;
+	    height: 49px;
+	    margin-bottom: 60px;
+	    background-color: #2121ad;
+	    color: white;
+	    font-weight: bold;
+	    font-size: 16px;
+	    border: solid transparent;
+	}
+		.titulo__botton:hover{
+			background-color: black;
+			color: white;
+			transition: background-color 700ms;
+		}
+	.titulo__imail{
+	   	height: 37px;
+	    width: 568px;
+	    margin-bottom: 60px;
+	    background-color: rgba(0, 0, 0, 0.2);
+	    border: solid transparent;
+	}
+	.titulo__images{
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+	}
+	.titulo__tixt{
+		display: inline-grid;
+	    margin-left: 4px;
+	    text-align: center;
+	    margin-top: 20px;
+	    border: solid 4px transparent;
+	    background-color: rgba(33, 33, 173, 0.52);
+	    color: #5a6080;
+	    font-size: 16px;
+	}
+.contacto{
+	background-image: url("../images/students.jpg");
+	text-align: center;
+	position: relative;
+}
+.contacto:before{
+	content: '';
+	position: absolute;
+	background-color: rgba(33, 33, 173, 0.52);
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+	.contacto__zindex{
+		position: relative;
+		z-index: 1;
+		padding: 50px 0;
+	}
+	.pareja{
+		border-radius: 100px;
+		border: solid 4px;
+		border-color: white;
+	}
+	.contacto__link{
+		display: block;
+	    color: white;
+	    font-size: 20px;
+	    font-weight: bold;
+	    border: solid 4px transparent;
+	    background-color: #15e615;
+	    width: 290px;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	    padding: 6px;
+	}
+	.contacto__link:hover{
+		background-color: blue;
+		color: black;
+		transition: background-color 700ms;
+	}
+
+.main{
+	background-color: rgba(195, 195, 195, 0.61);
+}
+
+.main__contenido{
+	display: inline-block; 
+	width: 70%;
+	vertical-align: top;	
+}
+.main__barralateral{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+	.main__title{
+		background-color: #2121ad;
+	    color: white;
+	    width: 280px;
+	    padding: 8px;
+	    display: inline-block;
+	    margin-bottom: 10px;
+	}
+	.main__image{
+		width: 296px;
+	}
+	.main__imagen{
+		width: 117%;
+	    height: 115px;
+	    padding: 5px;
+	}
+	.main__list{
+		margin-bottom: 19px;
+	}
+	.main__listado{
+		list-style: none;
+    	padding: 10px;
+	}
+	.main__link{
+		font-weight: bold;
+		font-size: 22px;
+	}
+	.main__texto{
+	
+	}
+
+/* quiero ser el quinto teletubi */
+
+footer{
+	background-color: #073650;
+	padding: 40px 0;
+}
+.pipadeagua{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+
+.footer__menu{
+	display: inline-block;
+    vertical-align: top;
+    width: 330px;
+}
+
+.footerMenu{
+	list-style: none;
+}
+	.footerMenu__link{
+		color: white;
+	}
+	.footerMenu__li{
+		margin-bottom: 20px;
+	}
+.footer__contacto{
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+}
+	.footerContacto{
+	list-style: none;
+	}
+	.footerContacto__link{
+		color: white;
+	}
+	.footerContacto__list{
+		margin-bottom: 20px;
+	}
+.footer__fb{
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+}
+	.footer__image{
+		width: 100%;
+	}
+.finaldelavida{
+	display: inline-block;
+	background-color: white;
+	width: 100%
+}

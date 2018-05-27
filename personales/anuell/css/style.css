@@ -1,0 +1,58 @@
+.page{
+	background-color: grey;
+	width: 800px;
+	margin: auto ;
+	border: solid 5px black;
+	padding: 10px ;
+	
+}
+
+
+.cabecera__titulo{
+	display: inline-block;
+}
+
+.cabecera__navegacion{
+	display: inline-block;	
+}
+.menu__enlace{
+	color: white;
+	text-decoration: none;
+}
+.menu__item{
+	display: inline-block;
+	margin-left:90px;
+}
+.sobremi__imagen:hover{
+	transform: scale(2.0);
+}
+
+
+
+.sobremi__imagen{
+    transition:transform.5s;
+	display: inline-block;
+	margin-left: 5px;
+	border:dashed #00ff52 5px;
+	vertical-align: middle;
+}
+.sobremi__contenido{
+	display: inline-block;
+	width: 500px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.piedepagina{
+	margin-left:250px ;
+}
+.info{
+	background-color: black;
+	padding: 5px;
+	border-radius: 10%;
+	color: white;
+	text-decoration: none;
+}
+
+input{
+	display: block;
+}

@@ -1,0 +1,259 @@
+h1{
+	font-size: 70px;
+}
+body{
+	font-family: arial;
+	text-align: center;
+}
+main{
+
+}
+/*articulos*/
+
+/*casa*/
+
+.casa{
+
+}
+.techo{
+	width: 1000px;
+	height: 30px;
+	background-color: lavender;
+	margin-right: auto;
+	margin-left: auto;
+}
+.base{
+	width: 880px;
+	height: 400px;
+	background-color: green;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ventana-left{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: brown;
+	border: solid black 3px;
+	float: left;
+	margin-left: 47px;
+	margin-top: 60px;
+}
+.fondo-ventana-imagen-left{
+	width: 180px;
+	height: 180px;
+	background-image: url(image/sala.jpg);
+	background-position: left bottom;
+	/*background-size: 250px;*/
+	margin: 10px 0px 0px 10px;
+	border: solid black 2px;
+	perspective: 700px;
+}
+
+/*lunas*/
+
+.lunas-left{
+	width: 50%;
+	height: 178px;
+	background-color: skyblue;
+	display: inline-block;
+	transition: transform 300ms;
+	transform-origin: 0 0;
+}
+.lunas-right{
+	width: 50%;
+	height: 178px;
+	background-color: skyblue;
+	display: inline-block;
+	transform-origin: 100% 0;
+	transition: transform 300ms;
+}
+.fondo-ventana-imagen-left:hover .lunas-right{
+	transform: rotateY(120deg);
+}
+.fondo-ventana-imagen-left:hover .lunas-left{
+	transform: rotateY(-120deg);
+}
+
+.fondo-ventana-imagen-right:hover .lunas-right{
+	transform: rotateY(120deg);
+}
+.fondo-ventana-imagen-right:hover .lunas-left{
+	transform: rotateY(-120deg);
+}
+
+
+
+.manija-ventana-left{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+	border-radius: 100px;
+	margin-left: auto;
+	margin-top: 70px;
+}
+.manija-ventana-right{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+	margin-top: 70px;
+	border-radius: 100px;
+}
+
+.ventana-right{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: brown;
+	border: solid black 3px;
+	float: right;
+	margin-right: 38px;
+	margin-top: 60px;
+}
+.fondo-ventana-imagen-right{
+	width: 180px;
+	height: 180px;
+	background-image: url(image/sala.jpg);
+	background-position: right bottom;
+	/*background-size: 320px;*/
+	margin: 10px 0px 0px 10px;
+	border: solid black 2px;
+	perspective: 700px;
+}
+
+.puerta{
+	display: inline-block;
+	width: 175px;
+	height: 350px;
+	background-color: brown;
+	border: solid black 3px;
+	transform-origin: 100% 0;
+	transition: transform 300ms;
+}
+.puerta:hover{
+	transform: rotateY(90deg);
+}
+.fondo-puerta-imagen{
+	background-image: url(image/sala.jpg);
+	background-position: center bottom;
+	/*background-size: 650px;*/
+	display: inline-block;
+	width: 180px;
+	height: 350px; 
+	margin-top: 43px;
+	perspective: 700px;
+}
+.manija-puerta{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50px;
+	margin-top: 170px;
+}
+
+
+/*carita*/
+.carita:hover{
+	position: relative;
+	-webkit-animation-name: redBox;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes redBox {
+	0%{
+		left:0px;
+	}
+	50%{
+		left: 1000px;
+		transform: rotate(180deg);
+	}
+	100%{
+		left: 0px;
+	}
+
+}
+
+.cejitas-left{
+	width: 100px;
+	height: 20px;
+	background-color: black;
+	margin-right: auto;
+	margin-left: 100px;
+	border-radius: 20px 0px 50px 0px;
+	transform: rotate(25deg);
+}
+.cejitas-right{
+	width: 100px;
+	height: 20px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: 100px;
+	border-radius: 50px 0px 20px 0px;
+	transform: rotate(13deg);
+}
+.cara{
+	width: 500px;
+	height: 500px;
+	background-color: goldenrod;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 1000px;
+}
+.ojos{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: auto 0;
+	display: inline-block;
+	border-radius: 1000px;
+}
+.boca{
+	width: 200px;
+	height: 300px;
+	background-color: black;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 400px 200px 400px 200px;
+	transform-origin: 100% 0;
+	transition: transform 300ms;
+}
+.boca:hover{
+	transform: ;
+}
+/*felixelgato*/
+.felixelgato{
+	width: 1000px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+.base-sandalia{
+	width: 230px;
+	height: 450px;
+	background-color: grey;
+	display: inline-block;
+}
+.imagen-sandalia{
+	width: 190px;
+	margin-top: 20px;
+	margin-bottom: -6px;
+}
+.parrafos{
+	font-size: 23px;
+	font-family: arial;
+	width: 200px;
+	margin-left: 10px;
+}
+button{
+	font-size: 30px;
+	border: none;
+	background-color: red;
+	color: white;
+	border-radius: 4px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}

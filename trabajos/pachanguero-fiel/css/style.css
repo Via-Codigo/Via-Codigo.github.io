@@ -1,0 +1,74 @@
+.logo1{
+	width: 20%;
+	display: block;
+	float: left;
+}
+.text__logo{
+	display: block;
+	float: left;
+	line-height: 88px;
+	font-size: 25px;
+	font-family: helvica;
+	color: #0bfbdb;
+}
+.primary-btn-new {
+	background-color: #ff0065;
+	border-color: black;
+}
+
+.caja{
+
+	text-align: center;
+}
+.imagen{
+	width: 114px;
+	border-radius: 50%;
+}
+.imagenes{
+	width: 700px;
+	height: 400px;
+}
+.top{
+	margin-top: -20px;
+}
+.izquierda{
+	position: relative;
+	z-index: 0;
+	left: -145px;
+}
+.caja__derecha{
+	z-index: 4;
+	position: relative;
+}
+.arriba{
+	margin-top: 20px;
+}
+.footer__top{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+.color_rosado{
+	background-color:#ff0065;
+}
+
+.nice-select .option:hover,
+ .nice-select .option.focus,
+  .nice-select .option.selected.focus{
+  	color: black; 
+  }
+
+ .button-no-cambia:after{
+background-color: #22f460;
+opacity: 1
+}
+
+.nice-select .option{
+	color: black;
+
+}
+.remark-desc  span{
+	font-size: 56px;
+}
+.fondo-gris{
+	background-color: #f9f9ff;
+}
