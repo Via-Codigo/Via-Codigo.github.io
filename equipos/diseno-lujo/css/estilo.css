@@ -1,21 +1,28 @@
-
-
 .btm-clr4 span:after,
-.btm-clr4 span:before{
-	border: none;
+.btm-clr4 span:before {
+  border: none;
 }
-.texto-rojo{
-	color: red;
-	display: inline;
+.texto-rojo {
+  color: red;
+  display: inline;
 }
-.link-icono{
-	font-size: 120px;
+.link-icono {
+  font-size: 120px;
 }
-.text-title{
-	color:#557ddb;
-	display: inline;
+.text-title {
+  color: #557ddb;
+  display: inline;
 }
 
-.img-box{
-	max-height: 250px;
+.img-box {
+  max-height: 250px;
+}
+
+.services-right {
+  padding: 0 15px;
+}
+
+.contact-left h2,
+.contact-left .glyphicon {
+  color: #557ddb;
 }
