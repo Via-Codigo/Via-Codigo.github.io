@@ -1,0 +1,33 @@
+.img {
+  width: 75px;
+}
+.im {
+  max-width: 50%;
+}
+.somos-fondo {
+  background: #310a31;
+}
+.fondo-servicios {
+  background: #847996;
+}
+
+.morado {
+  color: #3a506b !important;
+}
+.fondo-funciona {
+  background: #310a31;
+}
+.fondo-contactanos {
+  background: #847996;
+}
+.fondo-contactanos {
+  color: #3a506b;
+}
+
+a {
+  color: #88b7b5;
+}
+
+a:hover {
+  color: #3a506b;
+}
