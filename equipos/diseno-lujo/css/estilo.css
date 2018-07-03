@@ -26,3 +26,13 @@
 .contact-left .glyphicon {
   color: #557ddb;
 }
+
+@media (max-width: 667px) {
+  .header-middle {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+  }
+}
