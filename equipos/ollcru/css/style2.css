@@ -1,3 +1,20 @@
+@media (max-width: 667px) {
+  .header-left {
+    width: auto;
+  }
+
+  .header-middle {
+    width: 68%;
+  }
+
+  .header-middle ul li {
+    line-height: 2;
+  }
+  .esconder-celular {
+    display: none !important;
+  }
+}
+
 .img {
   width: 75px;
 }
