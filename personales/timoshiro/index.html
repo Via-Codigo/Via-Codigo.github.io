@@ -1,116 +1,395 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title></title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>HTML Template</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
+
 <body>
-	<div class="container">
-		<header class="header">
-			<h1>Minima</h1>
-			<nav>
-				<ul class="menu">
-					<li class="menu__item">
-						<a class="menu__enlace" href="#">Servicios</a>
-					</li>
-					<li>
-						<a class="menu__enlace" href="#">Historia</a>
-					</li>
-					<li>
-						<a class="menu__enlace" href="#">Trabajos</a>
-					</li>
-					<li>
-						<a class="menu__enlace" href="#">Agenda</a>
-					</li>
-					<li>
-						<a class="menu__enlace" href="#">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<img class="columna__mg" src="imagenes/banner.jpg">
-			<h2 class="menu__tim">NUESTROS VALORES</h2>
-			<div class="columnas">
-				<div class="columna">
-					<img src="imagenes/bulb.png">
-					<h3>Creatividad</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt .</p>
-				</div>
-				<div class="columna">
-					<img src="imagenes/rocket.png">
-					<h3>Creatividad</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-				</div>
-				<div class="columna">
-					<img src="imagenes/flag.png">
-					<h3>Creatividad</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-				</div>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./imagenes/camara.png');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-
-			</div>
-			<h2 class="valores__t">ÚLTIMOS TRABAJOS</h2>
-			<div class="trabajos__imgagenes">
-				<div class="menu__img">
-					<img class="columna__mg" src="imagenes/work.jpg">
-					<a class="enlace__detalle" href="">Ver Detalle</a>
-				</div>
-				<div class="menu__img">
-					<img class="columna__mg" src="imagenes/work.jpg">
-					<a class="enlace__detalle" href="">Ver detalle</a>
-
-				</div>
-				<div class="menu__img">
-					<img class="columna__mg" src="imagenes/work.jpg">
-					<a class="enlace__detalle" href="">Ver Detalle</a>
-				</div>	
-				<div class="menu__img">
-					<img class="columna__mg" src="imagenes/work.jpg">
-					<a class="enlace__detalle" href="">Ver Detalle</a>
-				</div>
-			</div>
-		</main>
-	</div>
-
-		<footer class="footer" >
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
 			<div class="container">
-				<div class="footer__pie">
-					<h4>Dirección</h4>
-					<p>1401 South Grand Avenue</p>
-					<p>Los Angeles;CA 90015</p>
-					(213) 748-2411
-					<p><a class="footer__enlace" href="#">Ver Más</a></p>
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="./imagenes/logo2.png" alt="">
+							<img class="logo-alt" src="imagenes/logo2.png" alt="">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
 				</div>
-				<div class="footer__pie">
-					<h4>Empresa</h4>
-					<nav>
-						<ul>
-							<li><a class="footer__enlace" href="#">Historia</a></li>
-							<li><a class="footer__enlace" href="#">Misión</a></li>
-							<li><a class="footer__enlace" href="#">Agenda</a></li>
-							<li><a class="footer__enlace" href="#">Servicios</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="footer__pie">
-					<h4>Soporte</h4>
-					<nav>
-						<ul>
-							<li><a class="footer__enlace" href="#">FAQ</a></li>
-							<li><a class="footer__enlace" href="#">Contáctemos</a></li>
-							<li><a class="footer__enlace" href="#">politíca</a></li>
-						</ul>
-					</nav>
-					
-				</div>
-				<div class="footer__pie">
-					<h4>Minima</h4>
-					<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">Nosotros</a></li>
+					<li><a href="#galeria">galeria</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Sigfrid Studio</h1>
+							<p class="white-text">Fotografo profesional de distintos tipos
+											Tienen equipos especializados en todo tipo de eventos
+							</p>
+						
+						</div>
+					</div>
+					<!-- /home content -->
+
 				</div>
 			</div>
-		</footer>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Como trabajamos</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="Nosotros">
+						<h3>Trabajamos con parejas</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+						</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="Nosotros">
+						<h3>Vamos a todos los lugares del mundo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+						
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="Nosotros">
+						<h3>Somos profesionales</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	
+
+	<!-- Service -->
+	<div id="galeria" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Galeria</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="galeria">
+						
+						<h3>Bodas</h3>
+						<img src="imagenes/bodas.png"	width="300">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="galeria">
+						<h3>Retratos</h3>
+						<img src="imagenes/retrato.png" width="300">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="galeria">
+						<h3>otros</h3>
+						<img src="imagenes/otros.png" width="300">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			<!-- /Row -->
+
+				
+			<div class="row cuadrilla">
+		
+			<img class="col-xs-12 col-md-4" src="imagenes/camara3.jpg" width="300 " height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/boda.peg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/lugar.pg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/chica.png" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/matri.peg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/com.jpg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/f1" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/autor.png" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/otros.png" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/f.pg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/lindo.png" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/hombre.peg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/post2.jpg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/work4.jpg" width="300" height="200">
+			<img class="col-xs-12 col-md-4" src="imagenes/blog3.jpg" width="300" height="200">
+
+			
+			</div>
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+
+	
+			
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Contacto</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Teléfono</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Correo</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Dirección</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Nombre">
+						<input type="email" class="input" placeholder="Correo">
+						<input type="text" class="input" placeholder="Titulo">
+						<textarea class="input" placeholder="Mensaje"></textarea>
+						<button class="main-btn">Enviar Mensaje</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>
