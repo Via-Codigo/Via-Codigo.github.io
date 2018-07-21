@@ -1,0 +1,47 @@
+body{
+	
+	background-color:white;
+}
+
+main{
+	background-color:rgba(169, 202, 88, 0.67);
+	max-width: 960px;
+	margin: auto;
+	padding: 40px;
+}
+
+h1{
+	font-family:helvetica;
+	text-decoration: underline;
+    text-transform: capitalize; 
+}
+
+.division{
+	width:50%;	
+}
+div{
+	display: block;
+}
+.division__container{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+ol > li {
+	line-height: 2;
+	color: red;
+}
+
+ol> li> span{
+	color: black;
+}
+
+.division__der{
+	margin-right: auto;
+
+}
+
+.division__izp{
+	margin-right: auto;
+}

@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+h2{
+	font-weight: bold;
+	color: grey;
+	text-align-last: center;
+	margin-top: 51px;
+	
+
+}
+
+.contenedor{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.menu__enlace{
+	color: orange;
+	margin-left: 46px;
+	text-decoration: none;
+}
+
+.valores{
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 30px;
+	margin:-13px;
+
+
+}
+
+.valores__creatividad{
+	text-align: center;
+	width: 363px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin: -30px;
+}
+
+.trabajos{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom:57px;
+	
+	
+}
+
+.trabajos__enlace{
+	text-align: center;
+	display: block;
+	background-color: orange;
+	color: white;
+	text-decoration: orange;
+	padding: 10px;
+
+
+}
+
+.trabajos__img{
+	display: block;
+
+}
+
+.footer{
+	background-color: orange;
+}
+
+.footer-flex{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.footer__enlace{
+	color: white;
+
+}
+
+.footer__pie{
+	width: 286px;
+	color: white;
+}
+.trabajos__trabajo{
+	width: 270px;
+}
+
+h4{
+	color:rgba(73, 216, 40, 0.9);
+	text-align: center;
+	font-size: 25px;
+	background-color:rgba(10, 15, 85, 0.98);
+	padding: 0;
+	margin: 0
+
+}

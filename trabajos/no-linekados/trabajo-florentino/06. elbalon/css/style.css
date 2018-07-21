@@ -1,0 +1,144 @@
+body{
+	box-sizing: border-box;
+}
+
+.menu-principal{
+	float: right;
+	padding: 12px;
+
+}
+
+.menu{
+	list-style: none;
+	margin: 0 auto;
+}
+.dominio {
+	width: 10%;
+	float: left;
+}
+.barra-azul{
+	background-color:#0054a1;
+	overflow: hidden;
+	
+}
+.fecha{
+	float: left;
+	color: white;
+	padding-left: 50px;
+}
+.menu-link{
+	color: white;
+
+}
+.menu-li{
+	float: left;
+	width: 180px;
+}
+a{
+	text-decoration:none;
+}
+.logo-grande{
+	width: 14%;
+	
+
+}
+.caja-logo{
+	text-align:center;
+	padding: 27px;
+}
+
+.caja-papa{
+	width: 1200px;
+	margin:auto;
+	overflow: hidden;
+}
+.caja-izq{
+	width: 74%;
+	float: left;
+}
+.caja-der{
+	float: left;
+	width: 20%;
+
+}
+.articulo-grande img{
+	width:858px; 
+}
+.articulo-mediano img{
+	width: 333px;
+
+}
+.articulo-mediano{
+	width: 48%;
+	float: left;
+}
+
+.titulo{
+	font-size: inherit;
+	height: 45px;
+}
+					
+
+.art-med-der{
+	padding-left: 30px;
+}
+.articulo-pequeno{
+	width: 30%;
+	float:left;
+}
+.articulo-pequeno img{
+	width: 91%;
+	height: 120px;
+
+}
+.articulo-pequeno p{
+	height: 75px;
+}
+
+.caja-der span{
+	color: #0054a1;
+	padding-right: 5px;
+}
+
+.diez{
+	font-size: 10px;
+}
+.cinco{
+	font-size: 5px;
+}
+.nueve{
+	font-size: 9px;
+}
+.ocho{
+	font-size: 8px
+}
+
+.once{
+	font-size: 11px;
+}
+.trece{
+	font-size: 13px;
+
+}
+.veite{
+	font-size: 20px;
+}
+.ventiuno{
+	font-size: 21px;
+}
+.papa-texto{
+	 background-color:#0054a1;
+	text-align:center;
+	height: 36px;
+	padding: 38px;
+	color:white;
+}
+.texto p{
+	padding: 38px;
+}
+
+.boton{
+	width: 80px;
+	height: 38px;
+	border-radius: 4px;
+}

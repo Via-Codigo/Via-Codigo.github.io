@@ -1,0 +1,151 @@
+body{
+	margin: 15px;
+
+}
+
+.bloques{
+	background-color:rgb(44, 62, 80);
+	overflow: hidden;
+	
+}
+
+.heade__title{
+	
+	color: aliceblue;
+	float: left;
+	padding-left: 250px;
+}
+.menu{
+	float: right;
+	padding-right: 300px;
+	margin: 15px;
+}
+.menu__link{
+	font-weight: bold;
+    display: inline-block;
+    color: aliceblue;
+    padding: inherit;
+    margin: initial;
+}
+
+.cajas-1{
+	border:none;
+}
+.border{
+	background-color: rgb(247, 117, 101);
+	width:80px;
+	padding: 10px;
+	margin-right: 170px;
+}
+.nuevo-caja{
+	display: block;
+	text-align: center;
+}
+.menu__iten{
+	display: block;
+	width: 250px;
+	margin: auto;
+	margin-bottom: 40px;
+	border-bottom: 1px solid;
+	padding: 10px 0;
+	width: 500px;
+}
+
+.border-arriba{
+	border-top: 1px solid;
+}
+.bloques-rojo{
+	display: block;
+	clear: both;
+	background-color: rgb(247, 117, 101);
+	padding: 50px;
+	overflow: auto;
+	color: white;
+}
+
+.imagen-principal{
+	display: block;
+    margin: auto;
+}
+.imagen-abajo{
+	width: 1172px;
+    margin: auto;
+}
+.debujos{
+	margin: 10px;
+}
+
+.caja-estadios{
+	text-align: -webkit-center;
+	color:rgb(255, 255, 255);
+	text-decoration: underline;
+}
+
+
+.caja-estadio{
+	text-align: -webkit-center;
+	color:rgb(5, 5, 5);
+	text-decoration: underline;
+}
+.sub-titulo{
+	text-align: center;
+	color:rgb(255, 255, 255);
+}
+
+.todos-parrafos{
+	width: 12px
+}
+
+.caja-central{
+	width:330px;
+	color: rgb(245, 245, 245);
+	font-size: large;
+	float: left;
+	margin-left: 60px
+}
+.cajas-estadios{
+	clear: left;
+	display: block;
+	border:solid;
+	text-align: center;
+    padding: 10px;
+    width: 140px;
+    margin: auto;
+}
+.caja-mundial{
+	width: 300px;
+	float: left;
+	margin-left: 530px;
+}
+
+.bloques-mitad{
+	width: 50%;
+    float: left;
+    color: azure;
+    margin-top: 20px;
+}
+
+.caja-2{
+	text-align:right;
+	margin: 20px;
+	margin-right: 90px; 
+}
+.caja-5{
+	text-align:right;
+	margin: 20px;
+	margin-right: 90px;
+}
+.caja-3{
+	height: 38px;
+}
+
+.bloques-8{
+	color:#fefefe;
+	float: left;
+    width: 100%;
+    line-height: 50px;
+    text-align: -webkit-center;
+    margin-top: 0px;
+    background-color: rgb(34, 52, 60);
+
+}

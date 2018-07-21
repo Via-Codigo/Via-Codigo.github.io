@@ -1,0 +1,70 @@
+.logo img{
+	width: 75px;
+}
+h1{
+	color:rgb(127, 108, 76);
+}
+
+.titulo-mensaje{
+	display: block;
+
+}
+
+.mensaje{
+display: block;
+width: 100%;
+margin-bottom: 30px;
+background-color:rgb(204, 172, 122);
+border:none;
+border-radius: 25px;
+}
+.boton-formulario{
+display: block;
+background-color: rgb(127, 108, 76);
+border-radius: 8px;
+border:none;
+padding: 10px;
+width: 160px;
+color: #fff6f6;
+}
+
+.icon img{
+	width: 50px;
+	height: 50px;
+	
+	
+
+}
+
+.icon{
+	border-radius: 100% !important;
+	border: 1px solid !important;
+	overflow: hidden;
+
+}
+
+.contenido-foto{
+     background-color: rgb(127, 89, 28);
+     padding: 25px;
+
+}
+
+h1{
+	text-align: center;
+}
+.active-works-carousel .owl-dots .owl-dot{
+ 	background-color:rgb(127, 108, 76);
+ }
+
+ .active-works-carousel .owl-dots .owl-dot.active{
+ 	background-color:rgb(127, 89, 28);
+ }
+
+.boton-marron span{
+	color: rgb(127, 89, 28) !important;
+}
+
+
+.subscription input{
+	background-color:rgb(204, 172, 122);
+}
