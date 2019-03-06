@@ -1,0 +1,333 @@
+:root{
+    --rojo-andiamo:#e31d3b;
+    --blanco-andiamo:#fcfcfa;
+    --negro-andiamo: #000000;
+    --gris-andiamo: #717171;
+}
+.font-red{
+    color: var(--rojo-andiamo)
+}
+.display-flex{
+    display: flex;
+}
+.contenedor-header-principal{
+    justify-content: space-between;
+    background-color:var(--negro-andiamo);
+}
+.justify-content-space-around{
+   justify-content: space-around;
+}
+.align-items-center{
+    align-items: center;
+}
+.background{
+    background-image: url("nosotros_foto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-red{
+    background-color:var(--rojo-andiamo);
+}
+.z-index-30{
+    position: relative;
+    z-index: 30;
+}
+.d{
+    top: 63vh;
+}
+.text-align-center{
+    text-align: center;
+}
+.flex-direction{
+    flex-direction: column;
+} 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.prueba{
+    border-bottom: 2px var(--rojo-andiamo) solid;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    width: 50vh;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.display-inline-flex{
+    display: inline-flex;
+}
+.font-family-sans-serif{
+    font-family: sans-serif;
+}
+.font-white{
+    color: var(--blanco-andiamo);
+}
+a{
+    text-decoration-line: none;
+}
+
+.background-black{
+    background-color:var(--negro-andiamo);
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.margin-right-md{
+    margin-right: 20px;
+}
+.borde-left::after{
+    content: "";
+    border-bottom: 2px var(--rojo-andiamo) solid;
+    width: 775px;
+    position: relative;
+    display: block;
+    left: -427px;
+}
+
+.proyecto{
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+}
+.proyecto:hover .proyecto-data{
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding-top: 40%;
+}
+.proyecto-data::after{
+content: "";
+display:block;
+height: 30px;
+width: 100%;
+background-color: var(--rojo-andiamo);
+position: absolute;
+bottom: 0;
+}
+.font-gris{
+    color: var(--gris-andiamo)
+}
+
+.titulo-rayas{
+    color: var(--rojo-andiamo);
+    font-size: 12px;
+}
+.titulo-rayas::after{
+    content: "";
+    width: 528px;
+    border-bottom: 2px var(--rojo-andiamo) solid;
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
+.titulo-rayas::before{
+    content: "";
+    width: 528px;
+    position: absolute;
+    top: 5px;
+    left: -3px;
+    border-bottom: 2px var(--rojo-andiamo) solid;
+}
+.boton-red{
+    padding: 10px 15px 10px 15px;
+    background-color: var(--rojo-andiamo);
+    border-radius: 5%;
+}
+.margin-top-sm{
+    margin-top: 15px;
+}
+.texto-regresar{
+    position: absolute;
+    color: var(--rojo-andiamo);
+    left: 125px;
+    top: 30px;
+}
+.linea-roja::after {
+    content: "";
+    border-bottom: 2px var(--rojo-andiamo) solid;
+    position: absolute;
+    left: 240px;
+    bottom: 8px;
+    width: 586px;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.border-bottom{
+    border-bottom: 2px var(--blanco-andiamo) solid;
+}
+.line-height-30px{
+    line-height: 30px;
+}
+.line-height-20px{
+    line-height: 20px;
+}
+.line-height-37px{
+    line-height: 37px;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.submenu{
+    background-color: var(--blanco-andiamo);
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    padding: 20px 18px 17px 5px;
+}
+.menu li:hover> .submenu,
+.menu li .submenu:hover{
+    visibility: visible;
+    opacity:1;
+    display: block;
+}
+.submenu a{
+    color: var(--gris-andiamo);
+}
+.rojo-hover:hover{
+    color: var(--rojo-andiamo)
+}
+
+.triangulo-arriba::before{
+    content: "";
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid white;
+    position: relative;
+    top: -50px;
+    width: 0;
+}
+.caja-andiamo-investiments{
+    margin: 20px -87px 20px 25px;
+    padding: 18px 110px 0px 0px;
+}
+.caja-proyecto-ventas{
+    margin: 40px 75px 13px 25px;
+    padding: 15px 0px 0px 0px;
+    border-top: 2px white solid;
+}
+.caja-proyecto-vendidos{
+    margin: 0px 0px 10px 25px;
+}
+.caja-contacto{
+    margin: 38px 20px 90px 5px;
+}
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+.caja-formulario{
+    margin: 34px 0px 30px 0px;
+}
+.margin-bottom-sm{
+    margin-bottom: 10px;
+}
+.line-height-15px{
+    line-height: 15px;
+}
+.padding-10px{
+    padding: 10px 10px 10px 10px;
+}
+.margin-bottom-10px{
+    margin-bottom: 10px
+}
+.height-120px{
+    height: 120px;
+}
+.padding-top-20px{
+padding-top: 20px;
+}
+.padding-bottom-30px{
+padding-bottom: 30px;
+}
+.gris-none{
+    background-color: var(--gris-andiamo);
+    border: none;
+}
+.w-85px{
+    width: 85px;
+}
+button{
+    cursor: pointer;
+}
+.first-letter::first-letter{
+    font-size: 18px;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+input,textarea,button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensaje-alerta{
+    display: none;
+}
+@media screen and (max-width: 614px){
+    .mensaje-alerta{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #e31d3b;
+        z-index: 99999999999;
+        text-align: center;
+    }  
+    body{
+        overflow-y: hidden;
+    }
+    .alerta-centrado{
+        width: 100%;
+        font-size: 50px;
+        font-variant: petite-caps;
+        text-shadow: 2px 1px darkgrey;
+    }
+    .texto-centrado{
+        font-variant: small-caps;
+        color: white;
+        font-weight: 700;
+        padding: 60px;
+    }
+    .button-centrado{
+        padding: 13px 65px 13px 65px;
+        border-radius: 150px;
+        background: border-box;
+        color: white;
+        border: 3px solid white;
+        font-size: 20px;
+        left: 60px;
+        font-weight: 800;
+        font-variant: small-caps;
+    }
+    .button-centrado:hover{
+        background-color: burlywood;
+        transition: 1s;
+        color: black;
+    }
+    .texto-centrado:hover{
+        font-size: 20px;
+        transition: 1.5s;
+        top: 200px;
+    }
+}

@@ -1,0 +1,27 @@
+.width-lg-vs1{
+    width: 790px;
+}
+.width-md{
+    width: 135px;
+}
+.width-sm{
+    width: 65px;
+}
+.width-lg-vs2{
+    width: 380px;
+}
+:root{
+    --size-65px:  65px;
+    --size-135px: 135px;
+    --size-380px: 380px;
+    --size-310px: 310px;
+}
+.width-andiamo-investiments{
+    width: var(--size-310px);
+}
+.width-100{
+width: 100%;
+}
+.width-70{
+width: 70%;
+}

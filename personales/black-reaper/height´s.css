@@ -1,0 +1,15 @@
+
+:root{
+    --size-100: 100%;
+    --size-135px: 135px; 
+    --size-25px: 25px;
+}
+.height-135px{
+    height: var(--size-135px);
+}
+.height-25px{
+    height: var(--size-25px);
+}
+.height-total{
+    height: var(--size-100);
+}

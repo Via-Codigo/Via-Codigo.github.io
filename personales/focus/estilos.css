@@ -1,0 +1,129 @@
+body {
+    background-color: #eeccee;
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.separador-superior-lg{
+margin-top: 100px;
+}
+.menu-contenedor {
+    background-color: #fff;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: #f05351;
+    transition: color 500ms;
+}
+
+.menu li:hover > a {
+    color:#fff;
+
+}
+
+.menu li {
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 500ms;
+    cursor: pointer;
+    
+    
+
+}
+
+.menu li:hover {
+    background-color: cornflowerblue;
+}
+
+.cuadrados-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cuadrado {
+    width: 500px;
+    height: 500px;
+    background-color: #f05351;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+
+.header-fijo {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+   
+    
+}
+@media only screen and (max-width:900px){
+    .capa{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: coral;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:lightcyan;
+        flex-direction: column;
+        font-size: 20px; 
+        font-family: fantasy      
+    }
+    .capa h2{
+        font-size: 64px;
+        color: black;
+        margin-bottom: 22px;
+    }
+    .capa p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .capa a{
+        border-style: inset;
+        border-radius: 9px;
+        text-decoration: solid;
+        color: black;
+        font-size: 36px;
+        background-color: red;
+        margin-top: 218px;
+    }
+}

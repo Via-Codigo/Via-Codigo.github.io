@@ -1,0 +1,16 @@
+/*
+reset para css
+*/
+body, header, main, section, aside, footer,
+div, article, nav, ul, ol, p, h1, h2, h3, 
+h4, h5, h6, img, a, li,label,textarea,input,fieldset,option,button,form{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul,ol,a{
+list-style-type:none;
+}
+fieldset{
+    border: none;
+}

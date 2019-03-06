@@ -1,0 +1,16 @@
+.s-hero{
+    background-image: url("Vienna.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.texture{
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: 2;
+background-image: url("home-texture.png")
+}

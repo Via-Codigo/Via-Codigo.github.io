@@ -1,0 +1,478 @@
+@font-face{
+	font-family:CabinSketch-Bold;
+	src:url(fonts/CabinSketch-Bold.ttf);
+}
+@font-face{
+	font-family: Playball-Regular;
+	src:url(fonts/Playball-Regular.ttf);
+}
+html{
+	background-color: black;
+}
+
+
+	header{
+		background-color: white;
+		display: flex;
+			}
+
+				.ul{
+					list-style: none;
+					display: flex;
+					font-size: 25px;
+					font-family: arial;
+					text-decoration: none;
+					justify-content: space-around;
+					width: 100%;
+				}
+
+
+					a{
+						text-decoration: none;
+						color: grey;
+					}
+					.a {
+						text-decoration:none;
+					}
+					.li{
+	  				margin-left: 50px;
+	  				color: gray;
+	  				text-decoration: none;
+					}
+.imagen_2{
+		width: 100%;
+	}
+
+		#cuerpo{
+			color: white;
+			margin-left: 70px;
+		}
+
+			h1{
+				font-size: 50px;
+				font-family: Arial;
+			}
+					.parrafo{
+						font-size: 30px;
+					}
+	.video_Razor{
+		margin-left:15%;
+		margin-right: 16%;
+		font-family:Playball-Regular;
+	}
+.footer{
+	background-color:#d7d7d7;
+	height: 400px;
+}
+.footer ul{
+	display: flex;
+	font-size: 45px;
+	list-style: none;
+	margin-left: 15%;
+}
+.footer li{
+	margin-left: 5%;
+}
+hr{
+	width: 50%;
+}
+.footer_2{
+	display: flex;
+	background-color: white;
+	height: 400px;
+}
+	.footer_2 img{
+		border:solid 3px;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+		.footer_2 ul{
+			list-style: none;
+			display: flex;
+			font-size: 30px;
+			color:gray; 
+			margin-top: 3%;
+			margin-left: 5%;
+			flex-grow: 1;
+			font-family:Ubuntu Condensed;
+		}
+		 .footer_2 li{
+	    	    flex-grow: 1;
+	    }
+
+	    	.footer_3{
+	    		background-color: white;
+	    		display: flex;
+	    	}
+
+	    		.footer_3 a{
+	    			margin-left: 5%;
+	    			margin-top: -15%;
+	    		}
+
+	    			.footer_3 ul{
+	    			justify-content: space-between;
+	    			list-style: none;
+	    			display: flex;
+	    			font-size: 25px;
+	    			color:gray;
+	    			margin-top: 3%;
+	    			margin-left: 9%;
+	    			flex-grow: 1;
+	    		}
+	    			.footer_3 li{
+	    				flex-grow: 1;
+	    			}
+
+main{
+	color: white;
+	font-size: 35px;
+}
+
+	.condiciones{
+			display: flex;
+			font-size:35px;
+			font-family:Playball-Regular;
+	}
+
+		.condiciones p{
+		margin-left: 10%;
+	}
+
+		}
+	.condiciones img{
+		width:500px;
+		height: 500px;
+		margin-left: 10%;
+		margin-right: 5%;
+	}
+
+		.principal_div{
+		width:1891px;
+		display: inline-block;
+		}
+
+		.principal_div img{
+			width: 800px;
+			height: 400px;
+			object-fit: cover;
+			margin: 5% 5% 0% 0%; 
+	}
+.autos{
+			display: flex;
+			font-size:40px;
+	}
+
+		.autos p{
+		font-size: 60px;
+		margin:auto;
+	
+	}
+			.mostrar-celular{
+					display: none;
+			}
+
+			.esconder-celular{
+				display: block;
+			}
+
+			h1{
+				text-align: center;
+			}
+table{
+	border:solid gray;
+	font-family:CabinSketch-Bold;
+}
+
+th{
+		border: solid;
+		width: 300px;
+	}
+
+	td{
+		border: solid ;
+		width: 296px;
+		text-align: center;
+	}
+	.blacklist{
+		display: flex;
+		font-size: 50px;
+	}
+		.blacklist p {
+			width: 65%;
+			font-size: 30px;
+			margin-top:10%;
+			font-family: Playball-Regular;
+			}
+
+			.blacklist img{
+				border: solid 5px;
+				height: 530px;
+				width: 50%;
+			}
+.controls{
+	display:flex;
+	margin-left: 25%;
+}
+	.audio img{
+				width: 294px;
+				border: solid;
+					}
+
+					.audio p{
+			font-size: 25px;
+			width: 350px;
+			margin-top: 0%;
+			font-family:Playball-Regular;
+		}
+
+		audio{
+	display:block;
+	margin-top: -11px;
+}
+
+@media screen and  (max-width:370px){
+	header{
+		background-color: white;
+		display: block;
+		height: 390px;
+
+	}
+
+		.imagen{
+			margin-left:35%;
+		}
+
+		.ul{
+			font-size: 25px;
+			display: block;
+			margin-left: -8%;
+		}
+
+		.a,.li{
+			margin-top: 5%;
+		}
+		.imagen_2{
+			margin-top: -7.1%
+		}
+		#cuerpo{
+			color: white;
+			margin-left: 10px;
+		}
+		h1{
+			font-size: 30px;
+		}
+		.parrafo{
+			font-size: 30px;
+					}
+		.video_Razor video{
+			max-width: 100%;
+		}
+		.footer{
+			background-color:#d7d7d7;
+			height: 200px;
+		}
+		.footer ul{
+			display:block;
+			font-size: 45px;
+			list-style: none;
+			padding-top: 5%;
+		}
+		.footer li{
+			margin-left: 5%
+		}
+
+		hr{
+			width: 40%
+		}
+
+		.footer_2{
+			display: block;
+			background-color: white;
+		}
+
+		.footer_2 img{
+			border:solid 3px;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			margin: auto;
+			margin-left: 40%;
+		}
+		.footer_2 ul{
+			list-style: none;
+			display:block;
+			font-size: 40px;
+			color:gray; 
+			margin-bottom:3%;
+			margin-left: 5%;
+			flex-grow: 1;
+		}
+		.footer_2 li{
+
+		}
+
+		.footer_3{
+			background-color: white;
+			display:flex;
+		}	
+		.footer_3 a{
+	    			margin-left: -5%;
+	    			margin-top: -15%;
+	    		}
+	   	.footer_3 ul{
+	    			justify-content: space-between;
+	    			list-style: none;
+	    			display:block;
+	    			font-size: 25px;
+	    			color:gray;
+	    			margin-top: 3%;
+	    			margin-left: 9%;
+	    			flex-grow: 1;
+	    		}
+
+	    main{
+			color: white;
+			font-size: 35px;
+            }
+
+			.condiciones{
+				max-width: 100%;
+				display:block;
+				font-size:35px;
+				font-family:Playball-Regular;
+	                    }
+	.condiciones p{
+		margin-left: 5%;
+      }   		
+	    		
+	.condiciones img{
+		max-width: 100%;
+
+	}
+
+	.principal_div{
+		display:block;
+		width: 100%;
+}
+			.principal_div img{
+				max-width: 100%;
+				object-fit: contain;
+				height: auto;
+ 
+	}
+
+	.autos{
+			display: block;
+			object-fit: contain;
+	}
+			.autos p{
+				font-size: 30px;	
+				}
+
+			.mostrar-celular{
+				display: block;
+			}
+
+			.esconder-celular{
+				display: none;
+			}
+
+			.blacklist{
+				display: block;
+			}
+			table{
+				border:solid gray;
+				font-family:CabinSketch-Bold;
+				display: none;
+				}
+
+			.blacklist{
+
+			}
+
+				.blacklist p{
+				
+			}
+					.blacklist img{
+					height: auto;
+			}
+			.controls{
+				display: block;
+				margin-left:7%;
+			}
+			.audio img{
+				
+				animation: camcolor infinite 30ms;
+				max-width: 100%;
+				border: solid;
+			}
+		.audio p{
+			font-size: 20px;
+			max-width: 100%;
+			margin-top: 10%;
+			padding-bottom:1%;
+			font-family:Playball-Regular;
+		}
+audio{
+	display:flex;
+	margin-top: -11px;
+}
+
+
+@keyframes camcolor{
+	0%{
+		border: solid  red;
+	}
+	10%{
+		border: solid  darkred;
+	}
+	20%{
+		border: solid  indianred;
+	}
+	30%{
+		border: solid  orangered;
+	}
+	40%{
+		border: solid green;
+	}
+	50%{
+		border: solid palegreen;
+	}
+	60%{
+		border: solid darkgreen;
+	}
+	70%{
+		border: solid yellowgreen;
+	}
+	80%{
+		border: solid greenyellow;
+	}
+	90%{
+		border: solid darkseagreen;
+	}
+	100%{
+		border: solid white;
+	}
+}
+}
+
+				
+
+
+	
+
+
+	
+
+
+
+
+				
+
+
+
+

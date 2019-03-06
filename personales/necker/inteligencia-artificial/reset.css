@@ -1,0 +1,16 @@
+body,header,footer,h1,h2,h3,h4,h5,h6 ,section,div,article,nav,a,img,ul,ol,li,main,aside,p,input,label,option,form,select{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+    
+    
+
+    
+
+
+
+ul, ol{
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+body, h1,h2,h3,h4,h5,h6, div,a,ul, li, ol, article, main, section, header, footer, aside, p, span, input, select, option, textarea, fieldset{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
