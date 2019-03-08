@@ -546,6 +546,8 @@ nav {
 @media screen and (max-width: 1310px) {
   body {
     overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
   }
   .tapa {
     display: flex;
@@ -570,10 +572,6 @@ nav {
   .primera-animacion {
     animation-name: arcoiris;
     animation-duration: 50s;
-  }
-
-  body {
-    overflow: hidden;
   }
 
   .estilos {
